@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
 
-
+  @IBAction func gacha(_ sender: UIButton) {
+    self.performSegue(withIdentifier: "result", sender: nil)
+  }
 }
 
